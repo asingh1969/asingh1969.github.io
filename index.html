@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Evernote Article</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,11 +18,106 @@
   </head>
   <body>
     <div class="container-fluid">
+    
       <div class="row">
-        <div class="col-md-12" class="text-center">
+        <div class="text-center">
           <h1>Evernote</h1>
         </div>
       </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<p class="lead">Evernote is a cloud service that offers both free and premium packages for uploading and storing notes and documents and accessing said documents from any Evernote supported device. Currently Evernote has versions for most big name devices such as Windows and Mac desktops and personal computers and iOS, Android, and Windows Phone.</p>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<h3>Storage</h3>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<p class="lead">To hold all the user data Evernote uses something called Shards. A shard is a pair of Supermicro boxes that run Debian and are managed by MySQL(Engberg2). Each of the Supermicro boxes contains two virtual machines. The primary virtual machine holds all the user data and Evernote’s core application stack while the secondary is a copy of the primary that is kept synchronously replicated. There is also a “UserStore” account database, which also run and maintained MySQL that keeps track of some information about each account.</p>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<h3>Searching</h3>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<p class="lead">To allow searching through your documents Evernote has 28 servers the process images. The Evernote development team made an “Advanced Imaging and Recognition” software, AIR(Engberg2), to process the images.</p>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<h3>Networking</h3>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<p class="lead">Evernote uses <a href="http://en.wikipedia.org/wiki/Border_Gateway_Protocol">Border Gateway Protocol</a> to send traffic through their primary service provider, <a href="http://www.us.ntt.com/index.html">NTT</a>, and secondary provider, <a href="http://www.level3.com/en/">Level 3</a>. The traffic is then sent to Evernote’s <a href="http://www.a10networks.com/">A10 Load Balancers.</a>(Engberg2)</p>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<h3>Analytics and Reporting</h3>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<p class="lead">Data warehousing for Evernote’s analytics and reports are done by a three tier system. Warehousing and primary data is held by a ten node <a href="http://hadoop.apache.org/#What+Is+Apache+Hadoop%3F">Hadoop</a> cluster, a three node <a href="http://www.actian.com/">ParAccel</a> database is set for querying derived tables, and a <a href="https://community.jaspersoft.com/project/jasperreports-library">JasperReports</a> server generates reports(Engberg1).</p>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<h3>Other</h3>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<p class="lead">Evernote also has a suite of servers for all there other needs, such as their corporate website, blog, forums, etc and the Evernote website is built off of the Thrift API(Engberg2).</p>
+      	</div>
+      </div>
+      
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<h3>References</h3>
+      	</div>
+      </div>
+      
+      <div class="row">
+      	<div class="col-md-3"></div>
+      	<div class="col-md-6">
+      		<p class="lead">Engberg, Dave. "Billions (of API Requests) Served." Evernote. N.p., 10 Dec. 12. Web. 21 Feb. 2014. <a href="https://blog.evernote.com/tech/2012/12/10/billions-served/">https://blog.evernote.com/tech/2012/12/10/billions-served/</a></p>
+      		<p class="lead">Engberg, Dave. "A Digest of Evernote’s Architecture (*)." Evernote. N.p., 17 May 2011. Web. 22 Feb. 2014.<a href="http://blog.evernote.com/tech/2011/05/17/architectural-digest/">http://blog.evernote.com/tech/2011/05/17/architectural-digest/</a></p>
+      	</div>
+      </div>
+      
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
